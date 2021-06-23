@@ -1,0 +1,45 @@
+/* .input{    
+    color: rgb(204, 67, 67);
+    font-size: medium;
+    font-family: inherit;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 auto;
+    padding:5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #703B09;
+    box-shadow: 0px 2px 3px burlywood;
+} */
+
+.input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.inputElement{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+
+.Invalid{
+    border: 1px solid red;
+    background-color: salmon;
+}
